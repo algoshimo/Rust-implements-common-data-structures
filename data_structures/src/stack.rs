@@ -4,7 +4,7 @@ struct Stack<T> {
     data : Vec<T>, //用动态数组实现栈
 }
 
-impl<T> tack<T> {
+impl<T> Stack<T> {
     fn new() -> Self {  //创建一个空栈
         Self {
             top : 0 ,
